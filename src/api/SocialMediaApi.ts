@@ -1,7 +1,7 @@
 import axios from 'axios';
 import type { Post } from '../types/Post';
 
-const API_URL = 'http://localhost:8080/api/posts';
+const API_URL = 'https://final-api-5908.onrender.com/api/posts';
 
 export const getPosts = async () => {
     const response = await axios.get(API_URL);
